@@ -13,6 +13,7 @@ The Python style at Twitter closely follows [PEP-8](http://www.python.org/dev/pe
 
 An automated checker for the Twitter Python style guide can be found in Science.
 
+:::python
       $ ./pants src/python/twitter/checkstyle:check
       $ dist/check.pex path1 path2 ...
 
